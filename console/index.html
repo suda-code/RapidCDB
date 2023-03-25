@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RapidCDB</title>
-    <script src="/tailwind.config.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="/ui/full.css" rel="stylesheet" type="text/css" />
     <link href="/ui/style.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/tailwind.config.js"></script>
 </head>
 
 <body>
-    <div class="navbar bg-base-100" style="position: fixed;">
+
         <div class="flex-1">
             <a href="/" class="btn btn-ghost normal-case text-xl">RapidCDB</a>
         </div>
@@ -45,30 +45,27 @@
         </div>
 
     </div>
-    </div>
-    <div class="hero min-h-screen bg-base-200"
-        style="background-image: -webkit-linear-gradient(right,#570df8,#946aee);">
-        <div class="hero-content text-center text-neutral-content">
-            <div class="max-w-md"><br><br><br>
-                <h1 class="text-5xl font-bold">RapidCDB</h1>
-                <p class="py-6">
-                    RapidCDB是为CoCo定制的数据存储解决方案。它允许在云中轻松存储数据，使其易于读取和操作。与CoCo目前的解决方案相比，RapidCDB是一个更用户友好的数据存储解决方案。</p>
-                <button class="btn btn-primary">开始使用</button>
-            </div>
+    <div class="stats bg-primary text-primary-content">
+  
+        <div class="stat">
+          <div class="stat-title text-neutral-content">余额</div>
+          <div class="stat-value">￥0.00</div>
+          <div class="stat-actions">
+            <button class="btn btn-sm btn-success">Add funds</button>
+          </div>
         </div>
-    </div>
-    <footer class="footer p-10 bg-neutral text-neutral-content">
-      <div>
-        <img src="./Rapid.svg" alt="" width="97">
-        <p>© 2023 Rapid All rights reserved</p>
-      </div> 
-      <div>
-        <span class="footer-title">社交媒体</span> 
-        <div class="grid grid-flow-col gap-4">
-          <a href="https://space.bilibili.com/1856704891"><img src="/img/bilibili.svg" alt=""></a>
+        
+        <div class="stat">
+          <div class="stat-title text-neutral-content">最大容量</div>
+          <div class="stat-value">1.00GB</div>
+          <div class="stat-actions">
+            <button class="btn btn-sm">Withdrawal</button> 
+            <button class="btn btn-sm">deposit</button>
+          </div>
         </div>
+        
       </div>
-    </footer>
+      
 </body>
 
 </html>
