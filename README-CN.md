@@ -9,4 +9,4 @@ RapidCDB是为CoCo定制的数据存储解决方案。它允许在云中轻松�
 ## 贡献
 欢迎捐款！如果您发现错误或有功能请求，请在GitHub存储库上打开一个issue。
 ## 许可证
-RapidCDB使用MIT协议。
+RapidCDB使用阿帕奇2.0协议。

@@ -12,4 +12,4 @@ Customized for CoCo
 Contributions are welcome! If you find a bug or have a feature request, please open an issue on the GitHub repository.
 
 ## License
-RapidCDB is MIT licensed.
+RapidCDB is Apache 2.0 Protocol.
