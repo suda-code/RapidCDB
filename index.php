@@ -59,6 +59,18 @@
         </div>
       </div>
     </div>
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+      <div>
+        <img src="./Rapid.svg" alt="" width="97">
+        <p>© 2023 Rapid All rights reserved</p>
+      </div> 
+      <div>
+        <span class="footer-title">社交媒体</span> 
+        <div class="grid grid-flow-col gap-4">
+          <a href="https://space.bilibili.com/1856704891"><img src="/img/bilibili.svg" alt=""></a>
+        </div>
+      </div>
+    </footer>
   </body>
 
 </php>
